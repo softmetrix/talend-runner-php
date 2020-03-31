@@ -1,0 +1,15 @@
+{
+    "name": "softmetrix/talend-runner-php",
+    "description": "Run Talend jobs from PHP.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marko Medojevic",
+            "email": "mmedojevicbg@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Softmetrix\\TalendRunner\\": "" }
+    }
+}
