@@ -41,7 +41,7 @@ class TalendRunner
 
         return [
             'success' => ($returnVar === 0) ? self::SUCCESS_YES : self::SUCCESS_NO,
-            'output' => implode("\,", $output),
+            'output' => implode("\n", $output),
         ];
     }
 
